@@ -1,0 +1,14 @@
+.Navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  background-color: aliceblue;
+}
+
+.Navbar .nav-logo {
+  font-weight: 700;
+  font-size: 21px;
+  margin: 15px;
+  color: black;
+}
