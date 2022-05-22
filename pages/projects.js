@@ -6,11 +6,11 @@ import Navbar from "../components/Navbar";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profilePic from "../public/a.png";
 import Cards from "./cards";
-import phue from "../public/projectPHUE.jpeg";
-import piano from "../public/piano.png";
-import astar from "../public/astar.jpeg";
-import warzone from "../public/warzone.jpg";
-import mask from "../public/mask.png";
+import phue from "../public/automate.png";
+import piano from "../public/pianoo.jpeg";
+import astar from "../public/pathf.jpg";
+import warzone from "../public/mw.png";
+import mask from "../public/facemask.png";
 
 export default function About() {
   return (
@@ -37,9 +37,15 @@ export default function About() {
 
       <div className={styles.projectContainer}>
         <Cards
+          Image={mask}
+          title="Face Mask Recognition"
+          desc="This app detects whether or not the user is wearing a face mask. This is done through Machine Learning
+          "
+        />
+        <Cards
           Image={astar}
           title="A* Path Finding Visualizer"
-          desc="This visualizer finds the shortest distance between two marked points on a grid."
+          desc="This visualizer finds the shortest path between two points on a grid, with and without obstacles"
         />
 
         <Cards
@@ -49,22 +55,15 @@ export default function About() {
         />
 
         <Cards
-          Image={piano}
-          title="Virtual Piano"
-          desc="Play the piano virtually from your computer with your keyboard and mouse "
-        />
-
-        <Cards
           Image={warzone}
           title="Call of Duty : Warzone Loadout App"
           desc="This webapp lists out the best Warzone loadouts to give users the highest possibility of winnning"
         />
 
         <Cards
-          Image={mask}
-          title="Face Mask Recognition"
-          desc="This app detects whether or not the user is wearing a face mask or not with the help of Machine Learning
-          "
+          Image={piano}
+          title="Virtual Piano"
+          desc="This app allows users to play the piano virtually from their computer by using a keyboard and mouse  "
         />
 
         {/* <Cards Image={Image} title="Next JS" desc="TIon know burh" /> */}

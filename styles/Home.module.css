@@ -768,7 +768,7 @@
 
 .cardBody {
   width: 325px;
-  height: 500px;
+  height: 700px;
   /* min-width: 250px;
   min-height: 400px; */
   /* max-height: 450px; */
@@ -782,13 +782,14 @@
 }
 
 .cardBody .cardImage {
-  height: 12rem;
+  /* height: 12rem; */
   /* width: 10px; */
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .cardBody .cardTitle {
   /* font-size: 1.5rem; */
   padding: 1rem;
+  font-size: 1.5rem;
   /* width: 50%; */
 }
 
@@ -798,7 +799,7 @@
 }
 
 .cardBody .cardButton {
-  padding: 1rem;
+  /* padding: 1rem; */
   font-size: 1rem;
   margin: 1rem;
   border: 2px solid rgb(0, 0, 0);
@@ -806,6 +807,7 @@
   background-color: #000000;
   color: rgb(255, 255, 255);
   border-radius: 10px;
+  width: 90%;
 }
 
 .cardBody:hover,
