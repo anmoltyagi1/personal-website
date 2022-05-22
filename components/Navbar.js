@@ -115,11 +115,14 @@ const Navbar = () => {
         <Link href="/about" passHref>
           <StyledLink>About</StyledLink>
         </Link>
-        <Link href="/contact" passHref>
+        <Link href="/projects" passHref>
           <StyledLink>Projects</StyledLink>
         </Link>
         <Link href="/blog/1" passHref>
           <StyledLink>Blog</StyledLink>
+        </Link>
+        <Link href="/resume.pdf" passHref>
+          <StyledLink>Resume</StyledLink>
         </Link>
       </div>
       <div

@@ -6,6 +6,7 @@ import profilePic from "../profile.png";
 import styled from "styled-components";
 import Nav from "../components/Nav";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import Typewriter from "react-typewriter-effect";
 // const StyledProfile = styled(profilePic)`
 //   width: 200px;
 //   height: 10px;
@@ -40,22 +41,28 @@ export default function Home() {
               {" "}
               student, engineer, and innovator{" "}
             </code>
+            {/* <Typewriter /> */}
           </p>
 
           <div className={styles.grid}>
-            <a href="/about" className={styles.card}>
-              <h2>About Me </h2>
-              <p>Learn more about who I am</p>
+            <a background={profilePic} href="/about" className={styles.card}>
+              <h2>About </h2>
+              {/* <p>Learn more about who I am</p> */}
             </a>
 
-            <a href="/about" className={styles.card}>
+            <a href="/projects" className={styles.card}>
               <h2>Projects </h2>
-              <p>Check out some of my work</p>
+              {/* <p>Check out some of my work</p> */}
             </a>
 
             <a href="/about" className={styles.card}>
               <h2>Blog </h2>
-              <p>Read some stuff</p>
+              {/* <p>Read some stuff</p> */}
+            </a>
+
+            <a href="/resume.pdf" className={styles.card}>
+              <h2>Resume </h2>
+              {/* <p>Read some stuff</p> */}
             </a>
           </div>
         </main>
@@ -86,16 +93,18 @@ export default function Home() {
         </div>
 
         <p>
+          {" "}
           Let's connect. I'm always ready to work on a project, down to
           Leetcode, or even talk about cool stuff all the time. Email me, or
-          even feel free to connect with me on LinkedIn. Lorem ipsum is
-          placeholder text commonly used in the graphic, print, and publishing
-          industries for previewing layouts and visual mockups
+          even feel free to connect with me on LinkedIn and I'll try my best to
+          respond to you as fast as I can.
         </p>
 
-        <a href="mailto:a26tyagi@uwaterloo.ca">
+        <a href="mailto:anmol.tyagi@uwaterloo.ca">
           <button className={styles.bn30}>Contact Me</button>
-          <button className={styles.bn30}> Resume</button>
+        </a>
+        <a href="/resume.pdf">
+          <button className={styles.bn30}>Resume</button>
         </a>
 
         <footer className={styles.footer}>
@@ -105,7 +114,7 @@ export default function Home() {
             <FaGithub size="2em" color="black" />
           </a>
 
-          <a href="mailto:a26tyagi@uwaterloo.ca">
+          <a href="https://www.linkedin.com/in/anmoltyagi1/">
             <FaLinkedin size="2em" color="black" />
           </a>
         </footer>
