@@ -1,4 +1,4 @@
-import Layout from "../../components/layout";
+
 import { getAllProjectIds, getProjectData } from "../../lib/projects";
 import styles from "/styles/Home.module.css";
 import Head from "next/head";
