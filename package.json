@@ -12,6 +12,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "bootstrap": "^5.1.3",
     "craco": "^0.0.3",
+    "gray-matter": "^4.0.3",
     "next": "^12.1.6",
     "next-themes": "^0.2.0",
     "react": "^18.1.0",
@@ -19,7 +20,11 @@
     "react-bootstrap-navbar": "^1.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
+    "react-player": "^2.10.1",
     "react-typewriter-effect": "^1.1.0",
+    "react-video-js-player": "^1.1.1",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

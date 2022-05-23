@@ -19,7 +19,9 @@ const Cards = (props) => {
           {props.title}
         </h2>
         <p className={styles.cardDesc}>{props.desc}</p>
-        <button className={styles.cardButton}>View Demo</button>
+        <a href={"/projects/" + props.Id} className={styles.cardButton}>
+          View Demo{" "}
+        </a>
       </div>
     </div>
   );

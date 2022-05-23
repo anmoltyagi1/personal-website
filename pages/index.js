@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
-import profilePic from "../profile.png";
+import profilePic from "../holly.png";
 import styled from "styled-components";
 import Nav from "../components/Nav";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -29,19 +29,17 @@ export default function Home() {
           <Image
             className={styles.profile}
             src={profilePic}
-            width={300}
-            height={300}
+            width={400}
+            height={425}
           />
           {/* <StyledImage src={profilePic} /> */}
           <h1 className={styles.title}>Hi I'm Anmol 👋 </h1>
 
-          <p className={styles.description}>
-            I am a{" "}
+          <p className={styles.descriptionp}>
+            I am a ‎
             <code className={styles.code}>
-              {" "}
               student, engineer, and innovator{" "}
             </code>
-            {/* <Typewriter /> */}
           </p>
 
           <div className={styles.grid}>
@@ -55,7 +53,7 @@ export default function Home() {
               {/* <p>Check out some of my work</p> */}
             </a>
 
-            <a href="/about" className={styles.card}>
+            <a href="/blog" className={styles.card}>
               <h2>Blog </h2>
               {/* <p>Read some stuff</p> */}
             </a>
@@ -96,8 +94,8 @@ export default function Home() {
           {" "}
           Let's connect. I'm always ready to work on a project, down to
           Leetcode, or even talk about cool stuff all the time. Email me, or
-          even feel free to connect with me on LinkedIn and I'll try my best to
-          respond to you as fast as I can.
+          even feel free to connect with me on LinkedIn. I love connecting and
+          meeting with new people.
         </p>
 
         <a href="mailto:anmol.tyagi@uwaterloo.ca">
@@ -122,4 +120,3 @@ export default function Home() {
     </div>
   );
 }
-// href="https://www.linkedin.com/in/anmoltyagi1/"

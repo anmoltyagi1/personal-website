@@ -118,7 +118,7 @@ const Navbar = () => {
         <Link href="/projects" passHref>
           <StyledLink>Projects</StyledLink>
         </Link>
-        <Link href="/blog/1" passHref>
+        <Link href="/blog" passHref>
           <StyledLink>Blog</StyledLink>
         </Link>
         <Link href="/resume.pdf" passHref>

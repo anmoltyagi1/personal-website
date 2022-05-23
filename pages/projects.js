@@ -11,6 +11,7 @@ import piano from "../public/pianoo.jpeg";
 import astar from "../public/pathf.jpg";
 import warzone from "../public/mw.png";
 import mask from "../public/facemask.png";
+import website from "../public/website.png";
 
 export default function About() {
   return (
@@ -39,55 +40,44 @@ export default function About() {
         <Cards
           Image={mask}
           title="Face Mask Recognition"
+          Id={"face-mask"}
           desc="This app detects whether or not the user is wearing a face mask. This is done through Machine Learning
           "
         />
         <Cards
           Image={astar}
           title="A* Path Finding Visualizer"
+          Id={"astar"}
           desc="This visualizer finds the shortest path between two points on a grid, with and without obstacles"
         />
 
         <Cards
           Image={phue}
           title="Philips Hue & PlayStation - Lights Controller"
+          Id={"hue-playstation"}
           desc="This app allows you to control your Philips Hue lights based on the setting of your PlayStation and other devices "
         />
 
         <Cards
           Image={warzone}
           title="Call of Duty : Warzone Loadout App"
+          Id={"warzone-app"}
           desc="This webapp lists out the best Warzone loadouts to give users the highest possibility of winnning"
         />
 
         <Cards
           Image={piano}
           title="Virtual Piano"
+          Id={"piano"}
           desc="This app allows users to play the piano virtually from their computer by using a keyboard and mouse  "
         />
 
-        {/* <Cards Image={Image} title="Next JS" desc="TIon know burh" /> */}
-
-        {/* <a href="/about" className={styles.projectCard}>
-            <h2>Face-Mask Detector </h2>
-            <p>Learn more about who I am</p>
-          </a>
-          <a href="/about" className={styles.projectCard}>
-            <h2>A* Path Finding Algorithm </h2>
-            <p>Learn more about who I am</p>
-          </a>
-          <a href="/about" className={styles.projectCard}>
-            <h2> Call of Duty : Warzone Loadout </h2>
-            <p>Learn more about who I am</p>
-          </a>
-          <a href="/about" className={styles.projectCard}>
-            <h2>Playstation & Philips Hue Controller</h2>
-            <p>Learn more about who I am</p>
-          </a>
-          <a href="/about" className={styles.projectCard}>
-            <h2>Virtual Piano </h2>
-            <p>Learn more about who I am</p>
-          </a> */}
+        <Cards
+          Image={website}
+          title="Personal Website"
+          Id={"personal-website"}
+          desc="My personal website to showcase myself. Developed with React Js and Next Js "
+        />
       </div>
 
       <footer className={styles.footer}>
