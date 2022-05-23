@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
 .App {
+  font-family: "Nunito Sans", serif;
   width: 100%;
   /* background: rgb(18, 41, 104); */
   padding: 0 2rem;
@@ -9,8 +10,15 @@
   background: rgb(255, 255, 255);
   padding: 0 2rem;
 }
-
+.descriptionp {
+  margin-top: 2%;
+  display: flex;
+  font-size: 26px;
+  font-family: "Nunito Sans", serif;
+  align-items: center;
+}
 .main {
+  font-family: "Nunito Sans", serif;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -44,7 +52,7 @@
 }
 
 .main h1 {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .footer a {
@@ -134,7 +142,7 @@
 .profile {
   max-width: 50%;
   max-height: 50%;
-  border-radius: 99%;
+  border-radius: 400px;
   margin-bottom: 10%;
   margin-top: -100%;
 }
@@ -175,6 +183,7 @@
   }
 }
 .section2 {
+  font-family: "Nunito Sans", serif;
   width: 100%;
   background: rgb(0, 0, 0);
   /* background: linear-gradient(
@@ -187,8 +196,7 @@
   width: 100%;
 }
 .section2 h1 {
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: "Nunito Sans", serif;
   font-size: 3rem;
   padding-top: 15%;
   padding-bottom: 0;
@@ -198,8 +206,7 @@
   border-radius: 5%;
   letter-spacing: 2%;
   line-height: 3rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: "Nunito Sans", serif;
   font-size: 1.25rem;
   width: 50%;
   margin-left: 5%;
@@ -210,6 +217,7 @@
   margin-bottom: 2%;
 }
 .section2 button {
+  font-family: "Nunito Sans", serif;
   margin-top: 5%;
   margin-bottom: 3%;
 }
@@ -579,9 +587,16 @@
 }
 
 .title2 {
+  color: #000;
+  font-family: "Nunito Sans", serif;
   margin-bottom: 0;
   line-height: 1.15;
   font-size: 4rem;
+}
+
+.main2 h3 {
+  color: #000;
+  margin-top: 5%;
 }
 
 .aboutMeContainer {
@@ -732,6 +747,7 @@
 
 /* Projects css -----------------------------------------------------------------------------------------------------*/
 .projectContainer {
+  font-family: "Nunito Sans", serif;
   margin: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -767,6 +783,7 @@
 }
 
 .cardBody {
+  font-family: "Nunito Sans", serif;
   width: 325px;
   height: 700px;
   /* min-width: 250px;
@@ -799,6 +816,7 @@
 }
 
 .cardBody .cardButton {
+  z-index: 100;
   /* padding: 1rem; */
   font-size: 1rem;
   margin: 1rem;
@@ -820,4 +838,83 @@
 .cardBody .cardButton:focus,
 .cardBody .cardButton:active {
   transform: scale(1.5);
+}
+
+.projectsContainer {
+  color: #000;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.projectsContainer .projectTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 4%;
+  margin-top: 2%;
+
+  /* background-color: #0070f3; */
+}
+
+.projectsContainer .video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #47bf0f; */
+}
+/* .projectsContainer h1 {
+  margin-left: 37.5%;
+  margin-bottom: 3%;
+  font-size: 3rem;
+} */
+
+/* .projectsContainer .video {
+  margin-left: 32.5%;
+} */
+.description {
+  color: #000;
+  /* background-color: #b06ab3; */
+  font-family: "Nunito Sans", serif;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.description p {
+  margin-top: 1%;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.description ul {
+  display: grid;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 46%;
+}
+
+.github {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.cardButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.cardButton a {
 }
