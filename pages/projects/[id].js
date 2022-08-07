@@ -1,4 +1,3 @@
-
 import { getAllProjectIds, getProjectData } from "../../lib/projects";
 import styles from "/styles/Home.module.css";
 import Head from "next/head";
@@ -7,6 +6,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import react from "react";
 import ReactPlayer from "react-player";
 import Image from "next/image";
+
+import codestake from "/public/coder.svg";
+
 // import VideoPlayer from "react-video-js-player";
 // import { facevid } from "/public/videos/faceMaskVid.mp4";
 
@@ -31,6 +33,7 @@ export default function Project({ projectData }) {
   console.log(projectData.title);
   const link = projectData.video;
   const GitHubLink = projectData.github;
+  const image = projectData.image;
   console.log(GitHubLink);
   return (
     <div className="App">
@@ -50,15 +53,23 @@ export default function Project({ projectData }) {
         </div>
 
         <div className={styles.video}>
-          <ReactPlayer
-            className={styles.video}
-            url={"https://www.youtube.com/watch?" + link}
-          />
+          {projectData.video === "" ? (
+            <Image src={codestake} width={400} height={400} />
+          ) : (
+            <ReactPlayer
+              className={styles.video}
+              url={"https://www.youtube.com/watch?" + link}
+            />
+          )}
         </div>
 
         <div className={styles.github}>
           <h4>
-            <a href={projectData.github}> GitHub Repository </a>
+            {projectData.github == "https://codestake.ca" ? (
+              <a href={projectData.github}> Join the Waitlist </a>
+            ) : (
+              <a href={projectData.github}> GitHub Repository </a>
+            )}
           </h4>
         </div>
 

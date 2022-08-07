@@ -12,6 +12,9 @@ import astar from "../public/pathf.jpg";
 import warzone from "../public/mw.png";
 import mask from "../public/facemask.png";
 import website from "../public/website.png";
+import ucart from "../public/ucart.png";
+import codestake from "../public/codestake.svg";
+import uwemb from "../public/UWemb.png";
 
 export default function About() {
   return (
@@ -38,17 +41,39 @@ export default function About() {
 
       <div className={styles.projectContainer}>
         <Cards
+          Image={codestake}
+          title="CodeStake"
+          Id={"codestake"}
+          desc="CodeStake is a global platform for developers to earn cryptocurrency by competing in head-to-head programming challenges"
+        />
+
+        <Cards
           Image={mask}
           title="Face Mask Recognition"
           Id={"face-mask"}
           desc="This app detects whether or not the user is wearing a face mask. This is done through Machine Learning
           "
         />
+
+        <Cards
+          Image={ucart}
+          title="UCart - Inventory Management"
+          Id={"ucart"}
+          desc="This webapp that allows users to manage their store inventory. It allows users to add, remove, and edit items."
+        />
+
         <Cards
           Image={astar}
           title="A* Path Finding Visualizer"
           Id={"astar"}
           desc="This visualizer finds the shortest path between two points on a grid, with and without obstacles"
+        />
+
+        <Cards
+          Image={uwemb}
+          title="UWaterloo Acceptance Predictor"
+          Id={"uni"}
+          desc="This webapp calculates your chances of recieving an offer of admission to UWaterloo's engineering & CS programs"
         />
 
         <Cards
