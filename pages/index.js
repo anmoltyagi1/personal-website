@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
-import profilePic from "../holly.png";
+import profilePic from "../pp1.png";
 import styled from "styled-components";
 import Nav from "../components/Nav";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
