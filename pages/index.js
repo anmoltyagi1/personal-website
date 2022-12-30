@@ -92,10 +92,9 @@ export default function Home() {
 
         <p>
           {" "}
-          Let's connect. I'm always ready to work on a project, down to
-          Leetcode, or even talk about cool stuff all the time. Email me, or
+          Let's connect. I'm always down to build something cool, do a fun activity, or even have a coffee chat. Email me, or
           even feel free to connect with me on LinkedIn. I love connecting and
-          meeting with new people.
+          meeting new people.
         </p>
 
         <a href="mailto:anmol.tyagi@uwaterloo.ca">
