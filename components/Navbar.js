@@ -111,7 +111,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className={`item ${isOpen && "open"} `} margin={-10}>
+      <div className={`item ${isOpen && "open"} `} margin={-100}>
         <Link href="/about" passHref>
           <StyledLink>About</StyledLink>
         </Link>
