@@ -95,9 +95,6 @@ export default function Home() {
         <a href="mailto:anmol.tyagi@uwaterloo.ca">
           <button className={styles.bn30}>Contact Me</button>
         </a>
-        <a href="/resume.pdf">
-          <button className={styles.bn30}>Resume</button>
-        </a>
 
         <footer className={styles.footer}>
           <hr />

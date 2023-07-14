@@ -121,9 +121,6 @@ const Navbar = () => {
         <Link href="/blog" passHref>
           <StyledLink>Blog</StyledLink>
         </Link>
-        <Link href="/resume.pdf" passHref>
-          <StyledLink>Resume</StyledLink>
-        </Link>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}   `}
