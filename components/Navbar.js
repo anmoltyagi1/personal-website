@@ -7,7 +7,7 @@ const Nav = styled.nav`
   font-family: "Montserrat", sans-serif;
   color: black;
   height: 80px;
-  margin-right: 5%;
+  margin-right: 7%;
   background: white;
 
   // background: white;
