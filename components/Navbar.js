@@ -7,6 +7,7 @@ const Nav = styled.nav`
   font-family: "Montserrat", sans-serif;
   color: black;
   height: 80px;
+  margin-right: 5%;
   background: white;
 
   // background: white;
@@ -111,7 +112,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className={`item ${isOpen && "open"} `} margin={-100}>
+      <div className={`item ${isOpen && "open"} `}>
         <Link href="/about" passHref>
           <StyledLink>About</StyledLink>
         </Link>
