@@ -105,7 +105,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav className="menu">
-      <div margin={20}>
+      <div>
         <Link href="/" passHref>
           <StyledLink>AT</StyledLink>
         </Link>
