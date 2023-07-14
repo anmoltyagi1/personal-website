@@ -57,11 +57,6 @@ export default function Home() {
               <h2>Blog </h2>
               {/* <p>Read some stuff</p> */}
             </a>
-
-            <a href="/resume.pdf" className={styles.card}>
-              <h2>Resume </h2>
-              {/* <p>Read some stuff</p> */}
-            </a>
           </div>
         </main>
       </div>
@@ -92,9 +87,9 @@ export default function Home() {
 
         <p>
           {" "}
-          Let's connect. I'm always down to build something cool, do a fun activity, or even have a coffee chat. Email me, or
-          even feel free to connect with me on LinkedIn. I love connecting and
-          meeting new people.
+          Let's connect. I'm always down to build something cool, do a fun
+          activity, or even have a coffee chat. Email me, or even feel free to
+          connect with me on LinkedIn. I love connecting and meeting new people.
         </p>
 
         <a href="mailto:anmol.tyagi@uwaterloo.ca">
